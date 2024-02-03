@@ -29,7 +29,7 @@ function Main() {
                 </div>
             </div>
             
-            <section className="mb-8">
+            <section className="mb-8 w-[100%]">
               <Outlet></Outlet>
               {/* <MyForm></MyForm> */}
 
