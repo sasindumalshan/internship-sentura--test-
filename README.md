@@ -5,3 +5,7 @@ Add From
 
 Update From
 ![Screenshot (524)](https://github.com/sasindumalshan/internship-sentura--test-/assets/109432637/3726699e-8c24-4133-9723-d7f5e5d30870)
+
+
+Table from
+![Screenshot (525)](https://github.com/sasindumalshan/internship-sentura--test-/assets/109432637/e6a26aa2-a806-4535-b377-c4473bef079b)

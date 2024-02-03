@@ -44,7 +44,7 @@ function Main() {
                 <h1>Contact</h1>
                 <h1>Mail</h1>
                 <h1>comment</h1>
-                <h1>Option</h1>
+                <img className="h-[25px]" src="src/assets/icon/icons8-option-50.png" alt="" />
             </div>  
         </div>
 
