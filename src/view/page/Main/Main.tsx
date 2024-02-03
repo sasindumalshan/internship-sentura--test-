@@ -13,14 +13,19 @@ function Main() {
                         All
                     </button>
                 </div >  
-                <Link className="flex flex-wrap gap-4" to={'new'}>  
+
+                <div className="flex flex-wrap gap-4">
+                  <Link to={'new'}>  
+                      <button className="text-[16px] font-bold p-1 pl-3 pr-3 text-[#00bf63] bg-[#00ff8440] rounded-[6px] border-[#00BF63] border-[2px]">
+                          ADD +
+                      </button>
+                  </Link>
+                  <Link to={'update'}>
                     <button className="text-[16px] font-bold p-1 pl-3 pr-3 text-[#00bf63] bg-[#00ff8440] rounded-[6px] border-[#00BF63] border-[2px]">
-                        ADD +
+                          UPDATE +
                     </button>
-                    <button className="text-[16px] font-bold p-1 pl-3 pr-3 text-[#00bf63] bg-[#00ff8440] rounded-[6px] border-[#00BF63] border-[2px]">
-                        UPDATE +
-                    </button>
-                </Link>
+                  </Link>
+                </div>
             </div>
             
             <section>
