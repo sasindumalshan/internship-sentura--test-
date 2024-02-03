@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import Headeer from "../../common/Header/Header";
 import MyForm from "../../common/FromSave/MyForm";
+import ListBox from "../../common/ListBox/ListBox";
 
 function Main() {
     return(
@@ -28,10 +29,31 @@ function Main() {
                 </div>
             </div>
             
-            <section>
+            <section className="mb-8">
               <Outlet></Outlet>
               {/* <MyForm></MyForm> */}
+
+             
             </section>
+
+
+            <div className=" flex flex-wrap justify-center gap-2 w-[100%] p-4 rounded-lg font-bold">
+            <div className="flex flex-wrap justify-between w-[100%] ">
+                <h1>Full Name</h1>
+                <h1>Location</h1>
+                <h1>Contact</h1>
+                <h1>Mail</h1>
+                <h1>comment</h1>
+                <h1>Option</h1>
+            </div>  
+        </div>
+
+           
+            <ListBox></ListBox>
+            <ListBox></ListBox>
+            <ListBox></ListBox>
+            <ListBox></ListBox>
+            <ListBox></ListBox>
         </section>
 
          
